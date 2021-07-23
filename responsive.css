@@ -1,0 +1,36 @@
+/* 
+- Mobile: 375px
+- Desktop: 1440px */
+
+@media  screen and (max-width:1024px){
+    .grid-container{
+        display: grid;
+        padding: 20px ;
+        grid-template-columns: 1fr;
+    }
+    .container{
+        display: grid;
+    }
+
+    .card{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .grid-item1{
+        background-color: var(--Moderate-violet);
+        grid-column: span 1;
+    }
+    .grid-item3{
+        grid-row:  5;
+        grid-column: 1;
+        background-color: var(--White);
+       }
+    .grid-item5{
+    grid-column:span 1 ;
+    background-color:var(--Very-dark-blackish-blue) ;
+
+    }
+    svg{
+        right: 1rem;
+    }
+}
